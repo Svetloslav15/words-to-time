@@ -1,0 +1,36 @@
+{
+  "name": "words-to-time-converter",
+  "version": "1.0.0",
+  "author": "Svetloslav Novoselski",
+  "description": "A simple library that turns words to time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Svetloslav15/words-to-time.git"
+  },
+  "keywords": [
+    "javascript",
+    "words",
+    "time",
+    "converter",
+    "wordstotime",
+    "react",
+    "angular",
+    "nodejs",
+    "js",
+    "time",
+    "convertor",
+    "conversion",
+    "time",
+    "units"
+  ],
+  "author": "Svetloslav Novoselski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Svetloslav15/words-to-time/issues"
+  },
+  "homepage": "https://github.com/Svetloslav15/words-to-time#readme"
+}
