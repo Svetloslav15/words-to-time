@@ -1,6 +1,6 @@
 {
   "name": "words-to-time-converter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Svetloslav Novoselski",
   "description": "A simple library that turns words to time",
   "main": "index.js",

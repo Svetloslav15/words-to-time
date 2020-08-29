@@ -9,6 +9,8 @@
 
 ```bash
 npm install words-to-time-converter
+or
+yarn add words-to-time-converter
 ```
 
 ## Usage
