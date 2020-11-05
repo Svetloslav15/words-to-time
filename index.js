@@ -19,6 +19,11 @@ function formatResult(result) {
 function wordsToMinutes(text, speed) {
     speed = speedEnum.includes(speed) ? speed : 'average';
     const regex = /[A-Za-z\']+/mg;
+    text = text.replace(/<[^>]*>/ig, ' ')
+        .replace(/<\/[^>]*>/ig, ' ')
+        .replace(/&nbsp;|&#160;/gi, ' ')
+        .replace(/\s+/ig, ' ')
+        .trim();
     const matches = [...text.matchAll(regex)];
     const result = (matches.length / wordsPerMinutes[speed]);
 
